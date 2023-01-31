@@ -1,6 +1,8 @@
 
 ## 1. git commit 提交流程
 严格按照 [Conventional Commits](https://www.conventionalcommits.org/zh-hans/v1.0.0/) 规范进行commit message编写。
+
+示例
 ```shell
 #示例
 git commit -m "feat(nike): 增加查单功能"
@@ -8,11 +10,12 @@ git commit -m "fix(Akamai): 修复xxx"
 git commit -m "docs: 更新API文档"
 ```
 
-> 使用 [git cz](https://github.com/commitizen/cz-cli#making-your-repo-commitizen-friendly) 替换 git commit命令。
+使用 [git cz](https://github.com/commitizen/cz-cli#making-your-repo-commitizen-friendly) 替换 git commit命令。
 ```shell
 git add . 
 git cz
 ```
+执行命令后会提供一个commit交互命令行页面。
 
 ![](https://github.com/commitizen/cz-cli/raw/master/meta/screenshots/add-commit.png)
 
