@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.2.1](https://github.com/azhengyongqin/awesome-husky-go/compare/v3.2.0...v3.2.1) (2023-01-31)
+
+
+### Bug Fixes
+
+* **readme.md:** 编辑Readme ([8f2d501](https://github.com/azhengyongqin/awesome-husky-go/commit/8f2d501ea8e2a542114c6e1ab2e2bbb3660e3420)), closes [#1](https://github.com/azhengyongqin/awesome-husky-go/issues/1) [#2](https://github.com/azhengyongqin/awesome-husky-go/issues/2)
+
 ## [3.2.0](https://github.com/azhengyongqin/awesome-husky-go/compare/v3.1.1...v3.2.0) (2023-01-31)
 
 ### [3.1.1](///compare/v3.1.0...v3.1.1) (2023-01-31)
