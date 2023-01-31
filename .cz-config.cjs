@@ -18,8 +18,12 @@ module.exports = {
     minMessageLength: 3,
     questions: ['type', 'scope', 'subject', 'body', 'breaking', 'issues', 'lerna'],
     // 跳过问题
-    // skipQuestions: ['body', 'footer'],
-    scopes: [],
+    skipQuestions: [],
+    scopes: [
+        {name: '配置'},
+        {name: '代码'},
+        {name: '测试'},
+    ],
     // 可选类型
     types: [
         {value: '✨  feat', name: '✨  feat:     新功能', emoji: '✨',},

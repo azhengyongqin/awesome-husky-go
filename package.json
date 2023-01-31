@@ -12,7 +12,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-customizable"
+      "path": "./node_modules/cz-emoji-conventional"
     },
     "cz-customizable": {
       "config": ".cz-config.cjs"
