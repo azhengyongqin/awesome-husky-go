@@ -1,7 +1,6 @@
 {
   "name": "awesome-husky-go",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
