@@ -2,6 +2,15 @@
   "name": "awesome-husky-go",
   "version": "3.1.1",
   "license": "MIT",
+  "scripts": {
+    "prepare": "husky install",
+    "release:peek": "standard-version --dry-run",
+    "release:major": "standard-version --release-as major",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "release:pre": "standard-version --prerelease alpha",
+    "release:first": "standard-version --first-release"
+  },
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
@@ -13,14 +22,5 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  },
-  "scripts": {
-    "prepare": "husky install",
-    "release:peek": "standard-version --dry-run",
-    "release:major": "standard-version --release-as major",
-    "release:minor": "standard-version --release-as minor",
-    "release:patch": "standard-version --release-as patch",
-    "release:pre": "standard-version --prerelease alpha",
-    "release:first": "standard-version --first-release"
   }
 }

@@ -14,7 +14,7 @@ yarn add -D standard-version
   "release:minor": "standard-version --release-as minor",
   "release:patch": "standard-version --release-as patch",
   "release:pre": "standard-version --prerelease alpha",
-  "release:first": "standard-version --first-release"
+  "release:first": "standard-version --first-release",
 }
 ```
 ```
