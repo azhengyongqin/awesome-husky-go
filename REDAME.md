@@ -1,7 +1,3 @@
-```shell
-yarn add -D commitizen cz-customizable @commitlint/config-conventional @commitlint/cli
-```
-
 1.安装
 ```shell
 yarn add -D standard-version
@@ -14,7 +10,7 @@ yarn add -D standard-version
   "release:minor": "standard-version --release-as minor",
   "release:patch": "standard-version --release-as patch",
   "release:pre": "standard-version --prerelease alpha",
-  "release:first": "standard-version --first-release",
+  "release:first": "standard-version --first-release"
 }
 ```
 ```
@@ -24,3 +20,4 @@ yarn add -D standard-version
   // first：第一次生成，不会增加版本号
   // 运行相关命令后，会自动打tag、生成changelog以及进行一次提交
 ```
+
