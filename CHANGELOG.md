@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.1.0](///compare/v3.0.0...v3.1.0) (2023-01-31)
+
+
+### ⚠ BREAKING CHANGES
+
+* **package.json:** 大版本更新
+
+### Features
+
+* **package.json:** 配置git提交规范 4546e91, closes #123
+
+
+### Bug Fixes
+
+* **main:** 修复Akamai 403问题 11c61b1
+
 ## [3.0.0](///compare/v2.0.0...v3.0.0) (2023-01-31)
 
 
